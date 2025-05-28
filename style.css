@@ -1,7 +1,7 @@
 :root {
-    --primary-color: magenta;
+    --primary-color: white;
     --text-color: #333;
-    --background-color: hotpink;
+    --background-color: lightgray;
     --card-bg: #f8f8f8;
     --card-border: #e0e0e0;
     --shadow: rgba(0, 0, 0, 0.1);
@@ -9,9 +9,9 @@
 }
 
 .dark-mode {
-    --primary-color: black;
+    --primary-color: blue;
     --text-color: #e0e0e0;
-    --background-color: hotpink;
+    --background-color: navyblue;
     --card-bg: #252525;
     --card-border: #383838;
     --shadow: rgba(0, 0, 0, 0.4);
