@@ -8,7 +8,7 @@
         window.addEventListener('beforeunload', function (event) {
             event.preventDefault();
             event.returnValue = '';
-            return 'Are you sure you want to leave? Any unsaved changes will be lost.';
+            return 'pls dont leave =(';
         });
     </script>
     <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5521219086088837" crossorigin="anonymous"></script>
@@ -84,7 +84,7 @@
                 <button onclick="fullscreenZone()">Fullscreen</button>
                 <button onclick="aboutBlank()">Open in New Tab</button>
                 <button onclick="downloadZone()">Download</button>
-                <button onclick="closeZone()">Close</button>
+                <button onclick="closeZone()">Exit =(</button>
             </div>
         </div>
         <iframe id="zoneFrame"></iframe>
@@ -105,7 +105,7 @@
     <footer>
         <div class="footer-links">
             <a href="#" onclick="showContact(); return false;">Contact</a>
-            <a href="#" onclick="loadPrivacy(); return false;">Privacy Policy</a>
+            <a href="#" onclick="loadPrivacy(); return false;">Legal stuff</a>
             <a href="javascript:saveData()">Export Data</a>
             <label for="importData" style="color: var(--primary-color); cursor: pointer;">Import Data</label>
             <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
